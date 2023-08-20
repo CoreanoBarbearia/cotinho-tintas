@@ -359,14 +359,14 @@ footer{
     }
 
     .sobre-texto{
-        height: 715px;
+        height: 695px;
         font-size: 1em;
     }    
 }
 
 @media (max-width: 400px) {
     .sobre-texto{
-        height: 715px;
+        height: 695px;
         font-size: 1em;
     }  
 }
