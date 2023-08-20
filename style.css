@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Roboto:ital,wght@0,300;0,900;1,100;1,300;1,400;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Germania One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1366px;
+    width: 100%;
+    height: 140px;
+    border: 1px solid rgba(170, 168, 168, 0.411);
+    margin: auto;
+}
+
+header #logo {
+    font-size: 1.6em;
+    cursor: pointer;
+    color: rgb(240, 236, 236);
+    box-shadow: 1px 20px 90px rgba(0, 0, 0, 0.24);
+    padding: 5px;
+}
+
+main{
+    max-width: 1366px;
+
+    margin: auto;
+}
+
+
+header ul {
+    display: flex;
+    gap: 1.3em;
+    list-style: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+header ul li {
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+header ul li:hover {
+    color: rgba(0, 0, 0, 0.664);
+    background-color: white;
+    transition: .2s;
+
+}
+
+body {
+    background: linear-gradient(to right, #1255d3, #042769);
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    max-width: 1366px;
+    width: 100%;
+
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+
+    background: url(img/mourizal-zativa-7RQsi6bxJT4-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+.texto-de-introducao {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.233);
+    width: 100%;
+    height: 500px;
+    gap: 1em;
+
+
+}
+
+.texto-de-introducao h1 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.719);
+
+
+}
+
+.texto-de-introducao p {
+    font-size: 1.4em;
+    width: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+.texto-de-introducao button {
+    width: 180px;
+    height: 43px;
+    background-color: #1d69f7;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-weight: bolder;
+    margin-top: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 20px 21px rgb(7, 86, 190);
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgb(88, 88, 88);
+}
+
+.texto-de-introducao button:hover {
+
+    transform: scale(0.95);
+}
+
+.container h1 {
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.beneficios {
+    width: 100%;
+    max-height: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
+    align-items: center;
+    gap: 1em;
+    padding: 10px;
+}
+
+.beneficios img {
+    background-color: rgb(22, 89, 214);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.beneficios .bene {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-height: 400px;
+    width: 400px;
+    min-height: 200px;
+    height: 100%;
+    justify-content: center;
+
+    font-weight: bold;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.651);
+}
+
+.beneficios .bene p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.video {
+    margin-top: 1em;
+    margin-left: 50%;
+    transform: translate(-74%);
+    max-width: 1366px;
+    width: 100%;
+    height: 450px;
+}
+
+#video {
+    margin-left: 50%;
+    transform: translate(-16%);
+    width: 70%;
+    height: 400px;
+}
+#video::after{
+    background-color: black;
+}
+
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 305px;
+    width: 100%;
+    height: 479px;
+    background-color: white;
+    margin-bottom: 2em;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.534);
+}
+
+.produto p{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.produto h3{
+    color: #0643b4;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.336);
+    box-shadow: 1px 1px 150px rgb(0, 0, 0);
+}
+
+.produto img{
+    max-height: 150px;
+    
+}
+.produto button{
+    margin-top: 5px;
+    background-color: #103ac2;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+
+.produto button:hover{
+    transform: scale(0.9);
+    font-weight: 700;
+}
+
+.container-tintas {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.container-tintas p{
+    color: #0e192e;
+    font-weight: bold;
+   background-color: rgb(240, 237, 234);
+}
+
+footer{
+    padding: 1em;
+    background-color: white;
+    height: 100%;
+    height: 700px;
+}
+
+.sobre-img{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(15, 152, 206);
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+}
+
+.sobre-img h1{
+    color: white;
+}
+
+.sobre-texto{
+   
+    text-align: center;
+    height: 400px;
+    font-size: 1.2em;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: rgb(216, 213, 209);
+    box-shadow: 1px 1px 1px black;
+}
+
+
+
+.sobre-texto p{
+    max-width: 1100px;
+    max-height: 500px;
+    font-size: 1em;
+    margin: auto;
+}
+
+@media (max-width:772px) {
+    .texto-de-introducao h1{
+        font-size: 1.5em;
+        width: 80%;
+        text-align: center;
+        position: relative;
+        left: 15%;
+       
+        
+    }
+    .texto-de-introducao p{
+        font-size: 1.2em;
+        width: 80%;
+        text-align: center;
+        position: relative;
+       
+        
+    }
+
+    footer{
+        height: 950px;
+    }
+
+
+    .sobre-texto{
+        height:550px;
+    }    
+}
+@media (max-width:575px) {
+    header{
+        flex-direction: column;
+    }
+
+    footer{
+        height: 950px;
+    }
+
+    .sobre-texto{
+        height:550px;
+        font-size: 1.1em;
+    }    
+}
+@media (max-width:500px) {
+    footer{
+        height: 980px;
+    }
+
+    .sobre-texto{
+        height:600px;
+        font-size: 1.1em;
+    }    
+}
+
