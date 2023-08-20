@@ -359,16 +359,14 @@ footer{
     }
 
     .sobre-texto{
-        height: 690px;
+        height: 685px;
         font-size: 1em;
-        background-color: red;
     }    
 }
 
 @media (max-width: 400px) {
     .sobre-texto{
-        height: 695px;
+        height: 685px;
         font-size: 1em;
-
     }  
 }
