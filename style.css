@@ -359,8 +359,9 @@ footer{
     }
 
     .sobre-texto{
-        height: 695px;
+        height: 690px;
         font-size: 1em;
+        background-color: red;
     }    
 }
 
@@ -368,5 +369,6 @@ footer{
     .sobre-texto{
         height: 695px;
         font-size: 1em;
+
     }  
 }
