@@ -5,22 +5,33 @@ const btnPassaScroll = document.querySelectorAll('.menu-produto');
 btnPassaScroll.forEach(element => {
     element.addEventListener("click" , () =>{
         document.getElementById('video').play()
-        document.getElementById('video').volume ='0.5'
+        document.getElementById('video').volume ='0.4'
         
     })
 });
-var posicaoRolagem;
-function desativaRolagem(){
-    posicaoRolagem = window.scroll|| document.documentElement.scrollTop;
-    
-    
-    document.body.style.height = "100%";
-    document.body.style.overflow = "hidden";
-}
 
 
-window.onload(
-    document.getElementById('video').pause()
-)
+var box = document.querySelectorAll('.box-dicas')
+box.forEach(element => {
+   
+    element.addEventListener("mouseover" , () =>{
+        element.classList.add('s')
+            var boxx = document.querySelectorAll('.box-dicas')
+            
+            
+            boxx.forEach(element => {
+                element.classList.add('r')
+            });
+            element.classList.remove('r')
+       })
 
-
+       element.addEventListener("mouseout" , () =>{
+        var boxx = document.querySelectorAll('.box-dicas')
+            
+            boxx.forEach(element => {
+                element.classList.remove('r')
+                element.classList.remove('s')
+            });
+           
+       })
+    })
