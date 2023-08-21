@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Roboto:ital,wght@0,300;0,900;1,100;1,300;1,400;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,800;0,900;1,300;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Germania One', cursive;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(0, 0, 0);
 
 }
@@ -64,7 +63,7 @@ header ul li:hover {
 body {
    
     overflow-x: hidden;
-    background: url(img/fundo2.jpg) no-repeat ;
+    background: linear-gradient(to right , #070e68 , #4008a7);
     background-size: cover;
 }
 
@@ -308,12 +307,13 @@ footer{
 .sobre-texto p{
     max-width: 1100px;
     max-height: 500px;
-    font-size: 1em;
+    font-size: 0.8em;
     margin: auto;
     color: black;
 }
 
 .dicas{
+    max-width: 1300px;
     width: 100%;
     padding: 1em;
     height: 700px;
@@ -324,44 +324,62 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin: auto;
+    
+   
 }
 
 .box-dicas{
-    width: 50%;
+    padding: 2px;
+    width: 25%;
     height:60%;
-    background-color: rgb(33, 123, 241);
+    background-color: #2d0e8a;
     color: white;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    border: 1px solid rgb(32, 32, 32);
+    border: 1px solid rgb(99, 48, 236);
     border-radius: 15px;
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.774);
+    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.774);
+   min-width: 200px;
 }
 
 .box-dicas h2{
-    color: rgb(28, 237, 252);
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px rgb(19, 194, 121);
 }
 
 .box-dicas, p{
     color: rgb(255, 255, 255);
-    text-align: center;
+    font-size: 0.9em;
 }
 
 .s{
-   scale: 1;
+   transform: scale(1.1);
     opacity: 1;
-    transition: .6s;
+    transition: .4s;
+    font-size: 1em;
 }
 .r{
-    width: 40%;
     opacity: 0.5;
-    transition: .6s;
+    transition: .4s;
 }
 
+@media (max-width:900px) {
+    footer{
+        margin-top: 200px;
+       
+    }
+    .container-dicas{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
 @media (max-width:772px) {
+
     .texto-de-introducao h1{
         font-size: 1.5em;
         width: 80%;
@@ -381,12 +399,13 @@ footer{
     }
 
     footer{
-        height: 950px;
+        height: 830px;
+       
     }
 
 
     .sobre-texto{
-        height:550px;
+        height: 520px;
     }    
 }
 @media (max-width:575px) {
@@ -405,7 +424,7 @@ footer{
 }
 @media (max-width:500px) {
     footer{
-        height: 980px;
+        height: 900px;
     }
 
     .sobre-texto{
