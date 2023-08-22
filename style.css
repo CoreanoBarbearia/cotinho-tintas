@@ -219,6 +219,7 @@ body {
 }
 
 .preço span{
+    color: rgb(255, 255, 255);
     text-decoration: line-through;
     text-decoration-color: rgb(230, 18, 11);
     
@@ -226,6 +227,11 @@ body {
 
 .preço-promo{
     font-size: 1.5em;
+}
+.preço-promo span{
+    font-size: 1.5em;
+    color: rgb(248, 244, 7);
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
 }
 
 .prdoutos-principa {
@@ -262,12 +268,12 @@ body {
 }
 
 .btn-comprar{
-    color: #3f176d;
+    
     background-color: #2d0e8a;
     color: white;
     border: navajowhite;
-    width: 60%;
-    height: 50px;
+    width: 50%;
+    height: 45px;
     border: 1px solid rgba(255, 255, 255, 0.288);
     border-radius: 20px;
     box-shadow: 1px 1px 20px rgba(202, 200, 200, 0.486);
@@ -290,6 +296,7 @@ body {
     background-color: #000000;
     font-weight: 600;
     border-radius: 20px;
+    padding: 2px;
 }
 
 
