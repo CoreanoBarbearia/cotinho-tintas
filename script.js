@@ -1,14 +1,4 @@
 
-const btnPassaScroll = document.querySelectorAll('.menu-produto');
-
-
-btnPassaScroll.forEach(element => {
-    element.addEventListener("click" , () =>{
-        // document.getElementById('video').play()
-        document.getElementById('video').volume ='0'
-        
-    })
-});
 
 
 
@@ -48,7 +38,7 @@ if(window.open){
         document.getElementById('treis').style.display='none'
         document.getElementById('quatro').style.display='none'
         document.body.style.height='3000px'
-        document.getElementById('video').volume ='0'
+       
         document.querySelector('.dicas').style.height='380px'
         document.querySelector('footer').style.marginTop='0'
             var inputsDicas =  document.querySelectorAll('.inptut-dicas')
@@ -82,7 +72,7 @@ if(window.open){
         document.getElementById('quatro').style.display='flex'
         document.querySelector('.container-dicas').style.height='100%'
         document.body.style.height='100vh'
-        document.getElementById('video').volume ='0'
+     
     
         document.querySelector('.dicas').style.height='700px'
     }
@@ -98,7 +88,7 @@ function verificarTamanhoDaTela(){
         document.querySelector('footer').style.marginTop='0'
         document.querySelector('.dicas').style.height='400px'
         document.body.style.height='3000px'
-        document.getElementById('video').volume ='0px'
+       
     }
     else{
         document.querySelector('.inputs-dicas').style.display='none'
@@ -107,7 +97,7 @@ function verificarTamanhoDaTela(){
         document.getElementById('quatro').style.display='flex'
         document.querySelector('.container-dicas').style.height='100%'
         document.body.style.height='100%'
-        document.getElementById('video').volume ='0'
+      
        
         document.querySelector('.dicas').style.height='700px'
     }
