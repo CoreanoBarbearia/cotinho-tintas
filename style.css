@@ -438,8 +438,8 @@ footer{
         justify-content: center;
     }
     .box-dicas{
-        min-width: 240px;
-        height: 210px;
+        min-width: 280px;
+        height: 225px;
         font-size: 0.6em;
         
       
@@ -451,4 +451,16 @@ footer{
         height: 685px;
         font-size: 1em;
     }  
+
+    .box-dicas{
+        min-width: 230px;
+        height: 225px;
+        font-size: 0.6em;
+        
+      
+    }
+
+    footer{
+        height: 1000px;
+    }
 }
