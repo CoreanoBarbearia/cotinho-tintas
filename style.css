@@ -299,6 +299,8 @@ body {
    background-color: rgb(240, 237, 234);
 }
 
+
+
 footer{
     padding: 1em;
     background-color: rgb(255, 255, 255);
@@ -317,6 +319,10 @@ footer{
     align-items: center;
     border-radius: 50%;
    
+}
+
+.inputs-dicas{
+    display: none;
 }
 
 .sobre-img h1{
@@ -540,6 +546,7 @@ footer{
         width: 300px;
         height: 500px;
     }
+    
 }
 
 @media (max-width: 400px) {
