@@ -12,6 +12,7 @@ btnPassaScroll.forEach(element => {
 
 if(window.onload){
     document.getElementById('video').pause()
+    document.getElementById('video').volume ='0'
 }
 
 

@@ -191,67 +191,107 @@ body {
     width: 70%;
     height: 400px;
 }
-#video::after{
-    background-color: black;
+
+
+.container-produtos{
+    max-width: 1366px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 20em;
+    padding: 2em;
 }
 
+.container-produtos img{
+    width: 200px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 1em 0;
+    padding: 0.5em;
+}
 
-.produto {
+.preço , span{
+    color: white;
+    font-size: 1.3em;
+}
+
+.preço span{
+    text-decoration: line-through;
+    text-decoration-color: rgb(230, 18, 11);
+    
+}
+
+.preço-promo{
+    font-size: 1.5em;
+}
+
+.prdoutos-principa {
+    width: 350px;
+    height: 650px;
+    background-color: #5415c9;;
+    border: 1px solid #3C08A3;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 305px;
-    width: 100%;
-    height: 479px;
-    background-color: white;
-    margin-bottom: 2em;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.534);
-}
-
-.produto p{
-    text-align: center;
-    font-size: 1.2em;
-    margin-top: 1em;
-    height: 200px;
-}
-
-.produto h3{
-    color: #0643b4;
-    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.336);
-    box-shadow: 1px 1px 150px rgb(0, 0, 0);
-}
-
-.produto img{
-    max-height: 150px;
-    
-}
-.produto button{
-    margin-top: 5px;
-    background-color: #103ac2;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    padding: 10px;
-    width: 150px;
-    border: 1px solid black;
     border-radius: 10px;
-    font-weight: bolder;
+   
 }
 
-
-.produto button:hover{
-    transform: scale(0.9);
-    font-weight: 700;
+.prdoutos-principa h2{
+    color: white;
 }
 
-.container-tintas {
+.prdoutos{
+    width: 350px;
+    height: 600px;
+    background-color: #2e0a72;
+    border: 1px solid #3C08A3;
     display: flex;
-    gap: 1em;
-    margin-top: 1em;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    min-width: 250px;
 }
+
+.prdoutos h2 , h3 , p{
+    color: white;
+    text-align: center;
+}
+
+.btn-comprar{
+    background-color: #2d0e8a;
+    color: white;
+    border: navajowhite;
+    width: 60%;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgba(202, 200, 200, 0.486);
+    cursor: pointer;
+}
+
+.btn-comprar:hover{
+    scale: 1.1;
+}
+
+
+
+.sobre-produto{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    background-color: #000000;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+
 
 .container-tintas p{
     color: #0e192e;
@@ -366,6 +406,7 @@ footer{
     transition: .4s;
 }
 
+
 @media (max-width:900px) {
     footer{
         margin-top: 200px;
@@ -375,6 +416,29 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .container-produtos{
+        padding: 1em;
+    }
+}
+
+@media (max-width:800px) {
+    .container-produtos{
+        flex-wrap: wrap;
+        margin-bottom: 45em;
+        padding: 2em;
+    }
+
+    .prdoutos{
+        width: 310px;
+        height: 500px;
+    }
+    .prdoutos-principa{
+        width: 310px;
+        height: 500px;
+    }
+
+
 }
 
 
@@ -406,7 +470,24 @@ footer{
 
     .sobre-texto{
         height: 520px;
-    }    
+    }   
+    
+    .container-produtos{
+        flex-wrap: wrap;
+        margin-bottom: 75em;
+        padding: 0.1em;
+    }
+
+    .prdoutos{
+        width: 270px;
+        height: 500px;
+      
+    }
+    .prdoutos-principa{
+        width: 270px;
+        height: 500px;
+    }
+
 }
 @media (max-width:575px) {
     header{
@@ -424,8 +505,13 @@ footer{
 }
 @media (max-width:500px) {
     footer{
-        height: 900px;
+        height: 980px;
         margin-top: 25em;
+    
+    }
+
+    footer p{
+        font-size: 1.2em;
     }
 
     .sobre-texto{
@@ -443,6 +529,16 @@ footer{
         font-size: 0.6em;
         
       
+    }
+
+    .prdoutos{
+        width: 400px;
+        height: 500px;
+      
+    }
+    .prdoutos-principa{
+        width: 400px;
+        height: 500px;
     }
 }
 
@@ -463,4 +559,6 @@ footer{
     footer{
         height: 1000px;
     }
+
+
 }
