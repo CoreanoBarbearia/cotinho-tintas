@@ -5,10 +5,14 @@ const btnPassaScroll = document.querySelectorAll('.menu-produto');
 btnPassaScroll.forEach(element => {
     element.addEventListener("click" , () =>{
         document.getElementById('video').play()
-        document.getElementById('video').volume ='0.4'
+        document.getElementById('video').volume ='0'
         
     })
 });
+
+if(window.onload){
+    document.getElementById('video').pause()
+}
 
 
 var box = document.querySelectorAll('.box-dicas')

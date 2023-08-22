@@ -425,12 +425,25 @@ footer{
 @media (max-width:500px) {
     footer{
         height: 900px;
+        margin-top: 25em;
     }
 
     .sobre-texto{
         height: 685px;
         font-size: 1em;
-    }    
+    } 
+
+    .container-dicas{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box-dicas{
+        min-width: 240px;
+        height: 210px;
+        font-size: 0.6em;
+        
+      
+    }
 }
 
 @media (max-width: 400px) {
