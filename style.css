@@ -532,12 +532,12 @@ footer{
     }
 
     .prdoutos{
-        width: 400px;
+        width: 350px;
         height: 500px;
       
     }
     .prdoutos-principa{
-        width: 400px;
+        width: 350px;
         height: 500px;
     }
 }
@@ -558,6 +558,16 @@ footer{
 
     footer{
         height: 1000px;
+    }
+
+    .prdoutos{
+        width: 325px;
+        height: 500px;
+      
+    }
+    .prdoutos-principa{
+        width: 325px;
+        height: 500px;
     }
 
 
