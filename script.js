@@ -72,6 +72,7 @@ if (window.open) {
         document.getElementById('quatro').style.display = 'flex'
         document.querySelector('.container-dicas').style.height = '100%'
         document.body.style.height = '100vh'
+        document.querySelector("footer").style.marginTop= '5em'
 
 
         document.querySelector('.dicas').style.height = '700px'
@@ -122,9 +123,12 @@ function verificarTamanhoDaTela() {
 
 
         document.querySelector('.dicas').style.height = '700px'
+        document.querySelector("footer").style.marginTop= '11em'
+
     }
 }
 
 
 window.addEventListener("resize", verificarTamanhoDaTela);
 
+document.querySelector("footer").style.marginTop= '11em'

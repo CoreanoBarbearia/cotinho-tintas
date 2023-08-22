@@ -231,7 +231,7 @@ body {
 .preço-promo span{
     font-size: 1.5em;
     color: rgb(248, 244, 7);
-    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.37);
 }
 
 .prdoutos-principa {
@@ -429,11 +429,17 @@ footer{
     .container-dicas{
         flex-wrap: wrap;
         justify-content: center;
+        
     }
 
     .container-produtos{
         padding: 1em;
     }
+
+    .dicas{
+        height: 790px;
+    }
+
 }
 
 @media (max-width:800px) {
@@ -515,7 +521,15 @@ footer{
     .sobre-texto{
         height:550px;
         font-size: 1.1em;
-    }    
+    }   
+    
+    .dicas{
+        height: 840px;
+    }
+
+    .footer{
+        margin-top: 5em;
+    }
 }
 @media (max-width:500px) {
     footer{
