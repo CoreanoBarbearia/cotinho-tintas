@@ -420,6 +420,11 @@ footer{
     transition: .4s;
 }
 
+.onda-fundo{
+    position: absolute;
+    bottom: 0;
+}
+
 
 @media (max-width:900px) {
     footer{
@@ -440,6 +445,9 @@ footer{
         height: 790px;
     }
 
+    .onda-fundo{
+        bottom: -12em;
+    }
 }
 
 @media (max-width:800px) {
@@ -559,6 +567,14 @@ footer{
       
     }
 
+    footer{
+        margin-top: 0;
+    }
+
+    .dicas{
+        height: 400px;
+    }
+
     .prdoutos{
         width: 300px;
         height: 500px;
@@ -567,6 +583,18 @@ footer{
     .prdoutos-principa{
         width: 300px;
         height: 500px;
+    }
+
+    .inputs-dicas{
+        display: block;
+    }
+
+    .dicas-secundarias{
+        display: none;
+    }
+
+    .onda-fundo{
+        bottom: 0em;
     }
     
 }
