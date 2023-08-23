@@ -18,7 +18,7 @@ header {
     max-width: 1366px;
     width: 100%;
     height: 140px;
-    border: 1px solid rgba(170, 168, 168, 0.411);
+   
     margin: auto;
 }
 
@@ -440,6 +440,44 @@ footer{
      display: none;
 }
 
+.promoçao{
+    background-color: white;
+    color: #000000;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    position: relative;
+    left: -10.4em;
+    top: -0.8em;
+    font-weight: bold;
+    color: rgb(221, 128, 21);
+
+}
+
+.prdoutos:hover{
+    box-shadow: 1px 1px 40px rgb(73, 10, 156);
+}
+.prdoutos-principa:hover{
+    box-shadow: 1px 1px 40px rgb(41, 5, 88);
+}
+
+@media (max-width: 1086px) {
+    .promoçao{
+        left: -9em;
+    }
+}
+@media (max-width: 950px) {
+    .promoçao{
+        left: -8em;
+    }
+}
+
+
+
 @media (max-width:900px) {
     footer{
         margin-top: 200px;
@@ -462,6 +500,10 @@ footer{
     .onda-fundo{
         bottom: -12em;
     }
+     .promoçao{
+        left: -7em;
+    }
+
 }
 
 @media (max-width:800px) {
@@ -479,9 +521,29 @@ footer{
         width: 310px;
         height: 500px;
     }
-
+    .promoçao{
+        left: -9em;
+        height: 80px;
+    }
 
 }
+
+@media (max-width:643px) {
+    .promoçao{
+        left: -8em;
+    }
+}
+@media (max-width:612px) {
+    .promoçao{
+        left: -7.8em;
+    }
+}
+@media (max-width:600px) {
+    .promoçao{
+        left: -7em;
+    }
+}
+
 
 
 @media (max-width:772px) {
@@ -552,6 +614,9 @@ footer{
     .footer{
         margin-top: 5em;
     }
+    .promoçao{
+        left: -8em;
+    }
 }
 @media (max-width:500px) {
     footer{
@@ -589,20 +654,11 @@ footer{
         height: 400px;
     }
 
-    .prdoutos{
+    .prdoutos , .prdoutos-principa{
         width: 300px;
-        height: 500px;
+        height: 590px;
       
     }
-    .prdoutos-principa{
-        width: 300px;
-        height: 500px;
-    }
-
-    .inputs-dicas{
-        display: block;
-    }
-
     .dicas-secundarias{
         display: none;
     }
@@ -610,15 +666,13 @@ footer{
     .onda-fundo{
         bottom: 0em;
     }
-    .pro-lado-direito{
+    .pro-lado-direito , .pro-lado-esquerdo , .inputs-dicas{
         display: block;
     }
 
-    .pro-lado-esquerdo{
-        display: block;
-   
-        
-    } 
+    .promoçao{
+        left: -9em;
+    }
     
 }
 
@@ -640,25 +694,14 @@ footer{
         height: 1000px;
     }
 
-    .prdoutos{
+    .prdoutos , .prdoutos-principa{
         width: 325px;
         height: 500px;
       
     }
-    .prdoutos-principa{
-        width: 325px;
-        height: 500px;
-    }
 
-
-    .pro-lado-direito{
+    .pro-lado-direito , .pro-lado-esquerdo{
         font-size: 1.5em;
     }
-
-    .pro-lado-esquerdo{
-        font-size: 1.5em;
-   
-        
-    } 
 
 }
