@@ -260,6 +260,7 @@ body {
     align-items: center;
     border-radius: 10px;
     min-width: 250px;
+    box-shadow: 2px 1px 50px rgb(0, 0, 0);
 }
 
 .prdoutos h2 , h3 , p{
@@ -425,6 +426,19 @@ footer{
     bottom: 0;
 }
 
+.pro-lado-direito{
+    font-size: 3em;
+    position: relative;
+    top: 25%;
+    display: none;
+  
+}
+.pro-lado-esquerdo{
+    font-size: 3em;
+    position: relative;
+    top: 25%;
+     display: none;
+}
 
 @media (max-width:900px) {
     footer{
@@ -596,6 +610,15 @@ footer{
     .onda-fundo{
         bottom: 0em;
     }
+    .pro-lado-direito{
+        display: block;
+    }
+
+    .pro-lado-esquerdo{
+        display: block;
+   
+        
+    } 
     
 }
 
@@ -627,5 +650,15 @@ footer{
         height: 500px;
     }
 
+
+    .pro-lado-direito{
+        font-size: 1.5em;
+    }
+
+    .pro-lado-esquerdo{
+        font-size: 1.5em;
+   
+        
+    } 
 
 }
