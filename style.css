@@ -455,7 +455,7 @@ footer{
     top: -0.8em;
     font-weight: bold;
     color: rgb(221, 128, 21);
-
+    animation:pisca .6s infinite linear;
 }
 
 .prdoutos:hover{
@@ -463,6 +463,22 @@ footer{
 }
 .prdoutos-principa:hover{
     box-shadow: 1px 1px 40px rgb(41, 5, 88);
+}
+
+@keyframes pisca {
+    0%{
+        box-shadow: 1px 1px 20px red;
+    }
+    50%{
+        box-shadow: 1px 1px 20px rgb(218, 197, 12);
+    }
+    100%{
+        box-shadow: 1px 1px 20px rgb(230, 116, 9);
+    }
+   
+    
+   
+  
 }
 
 @media (max-width: 1086px) {
@@ -677,6 +693,8 @@ footer{
     }
     
 }
+
+
 
 @media (max-width: 400px) {
     .sobre-texto{
