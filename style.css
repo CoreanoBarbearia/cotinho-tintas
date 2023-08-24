@@ -656,7 +656,8 @@ footer{
 
     .prdoutos , .prdoutos-principa{
         width: 300px;
-        height: 590px;
+        height: 500px;
+        padding: 1em;
       
     }
     .dicas-secundarias{
@@ -672,6 +673,7 @@ footer{
 
     .promoçao{
         left: -9em;
+        
     }
     
 }
