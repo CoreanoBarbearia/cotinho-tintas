@@ -483,11 +483,14 @@ footer{
    border-radius: 15px;
    padding: 1em;
    box-shadow: 1px 1px 10px black;
+    
 }
 .motivos-text .motivos-de-usar-tinta p , h3{
     color: #ffffff;
 }
-
+#motivo-sep{
+    margin-top: 69%;
+}
 
 @keyframes pisca {
     0%{
@@ -725,6 +728,16 @@ footer{
         left: -9em;
         
     }
+
+    .motivos-de-usar-tinta{
+       width: 100%;
+       font-size: 0.8em;
+    }
+    #motivo-sep{
+        margin-top: 150%;
+    }
+
+    
     
 }
 
@@ -757,5 +770,7 @@ footer{
     .pro-lado-direito , .pro-lado-esquerdo{
         font-size: 1.5em;
     }
+
+    
 
 }
